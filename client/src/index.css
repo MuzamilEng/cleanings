@@ -1,0 +1,332 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* site medula font */
+body {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1280px) {
+  body {
+    font-size: 55%;
+  }
+
+  .main_container {
+    margin-left: -7rem;
+  }
+
+  .rating_res {
+    width: 65rem;
+  }
+
+  .res_heading {
+    font-size: 1.9rem !important;
+  }
+
+  .res_title {
+    font-size: 1.5rem !important;
+  }
+
+  .res_para1 {
+    font-size: .9rem !important;
+  }
+
+  .res_para {
+    font-size: .66rem !important;
+  }
+
+  .model_res {
+    width: 10rem;
+    margin-top: .5rem;
+  }
+
+  .branding_res {
+    display: block;
+    color: transparent !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 55%;
+  }
+
+  .rating_res {
+    width: 53rem;
+    margin-left: -2rem;
+  }
+
+  .res_r {}
+}
+
+@media (max-width: 998px) {
+  body {
+    font-size: 50%;
+  }
+
+  .footer_res {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Creates 4 equal columns */
+  }
+
+  .emoji_para_res {
+    font-size: .8rem;
+  }
+
+  .emo_title_res {
+    font-size: .8rem;
+  }
+
+  .rating_res {
+    width: 46rem;
+    margin-left: 2rem;
+  }
+
+  .model_2 {
+    margin-left: -2rem !important;
+  }
+
+  .dis_none {
+    display: none;
+  }
+
+  .res_heading {
+    font-size: 1.5rem !important;
+  }
+
+  .res_title {
+    font-size: 1.5rem !important;
+  }
+
+  .res_para1 {
+    font-size: .9rem !important;
+  }
+
+  .res_para {
+    font-size: .66rem !important;
+  }
+
+  .brush_img {
+    left: 0rem;
+    top: 16rem !important;
+  }
+
+  .model_res {
+    width: 8rem;
+    margin-top: .5rem;
+    margin-left: -1rem !important;
+
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 45%;
+  }
+
+  .footer_res {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Creates 4 equal columns */
+  }
+
+  .emoji_para_res {
+    font-size: .8rem;
+  }
+
+  .emo_title_res {
+    font-size: .8rem;
+  }
+
+  .dis_none {
+    display: none;
+  }
+
+  .rating_res {
+    width: 44rem;
+    margin-left: 2rem !important;
+  }
+
+  .res_heading {
+    font-size: 1.5rem !important;
+  }
+
+  .res_title {
+    font-size: 1.5rem !important;
+  }
+
+  .res_para1 {
+    font-size: .9rem !important;
+  }
+
+  .res_para {
+    font-size: .66rem !important;
+  }
+
+  .model_2 {
+    margin-left: -2rem !important;
+  }
+
+  .brush_img {
+    left: 0rem;
+    top: 16rem !important;
+  }
+
+  .model_res {
+    width: 8rem;
+    margin-top: .5rem;
+    margin-left: -1rem !important;
+
+  }
+}
+
+@media (max-width: 468px) {
+  body {
+    font-size: 35%;
+  }
+
+  .footer_res {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Creates 4 equal columns */
+  }
+
+  .video_res {
+    width: 1000px;
+    padding: 1rem;
+  }
+
+  .footer_icon {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .emo_title_res {
+    font-size: .8rem;
+  }
+
+  .resourse_res {
+    display: none;
+  }
+
+  .footer_icon {
+    display: none;
+  }
+
+  .res_img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .emogi_btn {
+    margin-top: 17rem;
+  }
+
+  .res_title {
+    font-size: .8rem !important;
+  }
+
+  .res_para {
+    font-size: .66rem !important;
+  }
+
+  .branding_res {
+    display: none;
+  }
+
+  .dis_none {
+    display: none;
+  }
+
+  .rating_res {
+    /* width: 30rem; */
+    /* margin-top: 4rem; */
+    display: none !important;
+  }
+
+  .res_heading {
+    font-size: 1rem !important;
+  }
+
+  .main_para {
+    width: 18rem;
+  }
+
+  .res_main_btn {
+    flex-direction: column;
+    margin-top: 2rem !important;
+    margin: .5rem;
+    width: 9rem;
+    height: 3rem;
+    justify-content: space-around;
+  }
+
+  .model_2 {
+    margin-left: -2rem !important;
+  }
+
+  .main_btn {
+    width: 5rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: .7rem;
+  }
+
+  /* .res_title{
+      font-size: 1.5rem !important;
+    } */
+  .res_para1 {
+    font-size: .9rem !important;
+  }
+
+  .brush_img {
+    left: 0rem;
+    top: 16rem !important;
+  }
+
+  .model_res {
+    width: 7rem;
+    margin-top: .5rem;
+    margin-left: -1rem !important;
+
+  }
+
+  .header_res {
+    display: none;
+  }
+
+  .main_container {
+    margin-left: -3rem;
+  }
+}
+
+.logo {
+  font-family: 'Medula One', cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.font_inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font_lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font_medula {
+  font-family: 'Medula One', cursive;
+}
+
+.font_mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
